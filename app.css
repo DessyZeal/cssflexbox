@@ -59,6 +59,9 @@ li, a, button{
     align-items: center;
     padding: 30px 10%;
 }
+.mainbody{
+    margin: 20px;
+}
 .navbar{
     list-style:none;
 }
