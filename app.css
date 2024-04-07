@@ -85,11 +85,11 @@ li:hover{
     color:white;
 }
 img{
-    width: 30%;
+    width: 25%;
     margin: 1.66666%;
+    border: 1px solid gray;
 }
 .main{
-    /* background-color: gray; */
     width: 100%;
     display: flex;
     justify-content: center;
