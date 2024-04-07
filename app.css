@@ -46,11 +46,38 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-.nav-links{
-    /* display: flex; */
-    justify-content: space-around;
-    align-items: center;
+li, a, button{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
 }
-.list li{
-    display: inline;
+.body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.navbar{
+    list-style:none;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0 15px;
+}
+li:hover{
+    border-bottom:1px solid gray;
+    background-color: #fff;
+}
+.signup{
+    padding: 9px 25px;
+    background-color: white;
+    border: 1px gray solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.signup:hover{
+    background-color:gray;
+    color:white;
 }
