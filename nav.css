@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+}
+li, a, button{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #24252a;
+    text-decoration: none;
+}
+header{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 30px 30px;
+}
