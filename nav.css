@@ -12,7 +12,8 @@ li, a, button{
     text-decoration: none;
 }
 header{
-    justify-content: space-between;
+    justify-content: space-between; 
+    /* flex-end */
     display: flex;
     align-items: center;
     padding: 30px 30px;
@@ -21,6 +22,7 @@ header{
     font-family: cursive;
     font-size: 23px;
     font-weight: 700;
+    /* margin-right: auto; */
 }
 .nav-links{
     list-style: none;
@@ -38,6 +40,7 @@ button{
     border: none;
     cursor: pointer;
     border-radius: 10px;
+    /* margin-left: 20px; */
 }
 button:hover{
     background-color: #24252a;
