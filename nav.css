@@ -18,6 +18,13 @@ header{
     align-items: center;
     padding: 30px 30px;
 }
+header{
+    justify-content: space-between; 
+    /* flex-end */
+    display: flex;
+    align-items: center;
+    padding: 30px 30px;
+}
 .logo{
     font-family: cursive;
     font-size: 23px;
